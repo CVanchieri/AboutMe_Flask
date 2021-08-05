@@ -38,12 +38,12 @@ tokenizer = Tokenizer(num_words=vocab_size, oov_token=oov_token) # adding out of
 tokenizer.fit_on_texts(training_sentences)
 
 
-from sklearn.preprocessing import LabelEncoder
+# from sklearn.preprocessing import LabelEncoder
 
 
-enc = LabelEncoder()
-enc.fit(training_labels)
-training_labels = enc.transform(training_labels)
+# enc = LabelEncoder()
+# enc.fit(training_labels)
+# training_labels = enc.transform(training_labels)
 
 
 # new_model = tf.keras.models.load_model("duranz/z_bot")

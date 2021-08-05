@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 flask = "*"
 gunicorn = "*"
-sklearn = "*"
 tensorflow = "==2.4.1"
 numpy = "*"
 
