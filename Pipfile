@@ -9,7 +9,7 @@ gunicorn = "*"
 python-dotenv = "*"
 sklearn = "*"
 numpy = "*"
-tensorflow = "*"
+tensorflow = "==2.4.1"
 
 [dev-packages]
 
