@@ -1,8 +1,6 @@
 ### necessary imports ### 
-from flask import Flask, render_template, request, jsonify, Response
+from flask import Flask, render_template, request, jsonify
 from assistant import check
-import os
-from functools import wraps
 
 # FalconSQL Login https://api.plot.ly/
 
